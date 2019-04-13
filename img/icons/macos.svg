@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        opacity: 0.65;
+      }
+    </style>
+  </defs>
+  <path id="Фигура_7_копия" data-name="Фигура 7 копия" class="cls-1" d="M760,4678a18,18,0,1,0,18,18A18,18,0,0,0,760,4678Zm8.73,28.89h-2.166L760,4697.54l-6.564,9.35H751.27l7.647-10.89-7.647-10.89h2.166l6.564,9.35,6.564-9.35h2.166L761.083,4696Z" transform="translate(-742 -4678)"/>
+</svg>

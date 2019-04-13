@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>EDC Blockchain || Конструктор монет</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content='EDC Blockchain || Конструктор монет'>
+	<meta name="description" content='EDC Blockchain || Конструктор монет'>	
+	<meta property="og:title" content='EDC Blockchain || Конструктор монет'>
+	<meta property="og:url" content="PAGE URL">	
+		
+	<meta name="format-detection" content="telephone=no">		
+	<meta name="mobile-web-app-capable" content="yes">	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	
+	<link href="css/style.css?=1.0.0" rel="stylesheet">		
+</head>
+
+<body id="top">	
+	
+	<!--navbar.begin-->
+	<nav class="navbar navbar-expand-lg" id="navbar">
+		<div class="container justify-content-between">
+			<a class="navbar-brand" href="index.html">
+				<svg xmlns="http://www.w3.org/2000/svg" class="d-inline-block align-top" width="245" height="50" viewBox="0 0 245 50">					  
+					<path d="M196.848,56.665a0.739,0.739,0,0,1,.544.232,0.757,0.757,0,0,1,.229.551v2.058a0.756,0.756,0,0,1-.229.551,0.739,0.739,0,0,1-.544.232H184.279a0.737,0.737,0,0,1-.544-0.232,0.756,0.756,0,0,1-.229-0.551V40.782a0.757,0.757,0,0,1,.229-0.551A0.738,0.738,0,0,1,184.279,40h12.34a0.739,0.739,0,0,1,.544.232,0.761,0.761,0,0,1,.229.551v2.058a0.759,0.759,0,0,1-.229.551,0.738,0.738,0,0,1-.544.232h-9.248V48.23h8.618a0.74,0.74,0,0,1,.544.232,0.756,0.756,0,0,1,.229.551v2.058a0.755,0.755,0,0,1-.229.551,0.739,0.739,0,0,1-.544.232h-8.618v4.811h9.477ZM207.585,40a10.8,10.8,0,0,1,3.679.565,6.759,6.759,0,0,1,4.208,4.13,11.287,11.287,0,0,1,.673,3.3,40.383,40.383,0,0,1,0,4.29,11.284,11.284,0,0,1-.673,3.3,7.1,7.1,0,0,1-1.589,2.522,6.9,6.9,0,0,1-2.562,1.608,10.367,10.367,0,0,1-3.593.565h-7.215a0.736,0.736,0,0,1-.544-0.232,0.753,0.753,0,0,1-.23-0.551V40.782a0.758,0.758,0,0,1,.23-0.551A0.736,0.736,0,0,1,200.513,40h7.072Zm4.695,8a5.867,5.867,0,0,0-.358-1.724,3.926,3.926,0,0,0-.887-1.391,4.032,4.032,0,0,0-1.475-.928,6.036,6.036,0,0,0-2.119-.333h-3.836V56.665h3.98a5.6,5.6,0,0,0,2.032-.334,4.015,4.015,0,0,0,1.432-.913,3.845,3.845,0,0,0,.873-1.391,6.024,6.024,0,0,0,.358-1.739A40.388,40.388,0,0,0,212.28,48Zm18.5,5.855a0.838,0.838,0,0,1,.3-0.565,0.848,0.848,0,0,1,.53-0.188h2.319a0.813,0.813,0,0,1,.558.217,0.649,0.649,0,0,1,.215.565,7.5,7.5,0,0,1-.587,2.377A6.206,6.206,0,0,1,232.58,58.4a8.043,8.043,0,0,1-2.606,1.565,10.584,10.584,0,0,1-3.808.608,9.544,9.544,0,0,1-3.493-.594A7.213,7.213,0,0,1,218.45,55.8a10.541,10.541,0,0,1-.7-3.217q-0.058-1.1-.058-2.435t0.058-2.435a10.538,10.538,0,0,1,.7-3.217,7.211,7.211,0,0,1,4.223-4.188,9.541,9.541,0,0,1,3.493-.594,10.581,10.581,0,0,1,3.808.609,8.038,8.038,0,0,1,2.606,1.565,6.174,6.174,0,0,1,1.532,2.159A7.613,7.613,0,0,1,234.7,46.4a0.649,0.649,0,0,1-.215.565,0.813,0.813,0,0,1-.558.217h-2.319A0.9,0.9,0,0,1,231.063,47a0.814,0.814,0,0,1-.315-0.565,3.233,3.233,0,0,0-.4-1.13,3.475,3.475,0,0,0-.859-0.985,4.417,4.417,0,0,0-1.374-.71,6.2,6.2,0,0,0-1.947-.275,5.012,5.012,0,0,0-1.947.347,4.1,4.1,0,0,0-1.389.928A3.966,3.966,0,0,0,221.972,46a5.969,5.969,0,0,0-.358,1.71q-0.057,1.1-.057,2.435t0.057,2.435a5.862,5.862,0,0,0,.358,1.724,3.981,3.981,0,0,0,.859,1.377,4.085,4.085,0,0,0,1.389.928,5.006,5.006,0,0,0,1.947.348,6.183,6.183,0,0,0,1.947-.275,4.587,4.587,0,0,0,1.388-.71,3.382,3.382,0,0,0,.874-0.985A3.221,3.221,0,0,0,230.776,53.853ZM242.8,60.288a0.56,0.56,0,0,1-.63-0.637V40.665A0.574,0.574,0,0,1,242.8,40h7.473a7.153,7.153,0,0,1,2.577.42,5.051,5.051,0,0,1,1.8,1.145,4.446,4.446,0,0,1,1.045,1.652,5.836,5.836,0,0,1,.329,1.971,5.465,5.465,0,0,1-.229,1.652,4.882,4.882,0,0,1-.6,1.275,4.2,4.2,0,0,1-.816.913,4.309,4.309,0,0,1-.873.565,5.38,5.38,0,0,1,1.1.753,4.96,4.96,0,0,1,.93,1.1,5.965,5.965,0,0,1,.645,1.42,5.641,5.641,0,0,1,.243,1.681,6,6,0,0,1-.387,2.13,5.614,5.614,0,0,1-1.13,1.841,5.339,5.339,0,0,1-1.861,1.29,6.5,6.5,0,0,1-2.577.478H242.8Zm1.174-18.55V48.81H249.9a4.824,4.824,0,0,0,3.235-.942,3.355,3.355,0,0,0,1.088-2.681q0-3.449-4.323-3.449h-5.927Zm0,8.811v8h6.213a4.493,4.493,0,0,0,3.293-1.13,4.186,4.186,0,0,0,0-5.753,4.53,4.53,0,0,0-3.293-1.116h-6.213Zm16.864,9.1a0.561,0.561,0,0,1-.63.637h-0.487a0.56,0.56,0,0,1-.63-0.637v-19.3a0.56,0.56,0,0,1,.63-0.638h0.487a0.561,0.561,0,0,1,.63.638v19.3Zm8.9-14.724a6.812,6.812,0,0,1,2.72.507,5.517,5.517,0,0,1,1.961,1.391,6.063,6.063,0,0,1,1.2,2.1,9.238,9.238,0,0,1,.472,2.609c0,0.155,0,.338.014,0.551s0.015,0.435.015,0.667,0,0.459-.015.681-0.014.4-.014,0.536a9.236,9.236,0,0,1-.472,2.609,6.057,6.057,0,0,1-1.2,2.1,5.5,5.5,0,0,1-1.961,1.391,7.548,7.548,0,0,1-5.44,0,5.5,5.5,0,0,1-1.962-1.391,6.229,6.229,0,0,1-1.216-2.1,8.283,8.283,0,0,1-.459-2.609c0-.135-0.005-0.314-0.014-0.536s-0.014-.45-0.014-0.681,0-.454.014-0.667,0.014-.4.014-0.551a8.285,8.285,0,0,1,.459-2.609,6.235,6.235,0,0,1,1.216-2.1,5.512,5.512,0,0,1,1.962-1.391A6.819,6.819,0,0,1,269.743,44.926Zm4.609,6.753a5.49,5.49,0,0,0-1.345-3.783,4.775,4.775,0,0,0-6.528,0,5.49,5.49,0,0,0-1.346,3.783q-0.029.434-.028,1.072t0.028,1.073a5.489,5.489,0,0,0,1.346,3.782,4.775,4.775,0,0,0,6.528,0,5.488,5.488,0,0,0,1.345-3.782q0.029-.435.029-1.073C274.381,52.328,274.371,51.969,274.352,51.68Zm5.326,0.058q-0.029.435-.028,1.015t0.028,1.014a5.453,5.453,0,0,0,1.36,3.927,4.5,4.5,0,0,0,3.221,1.2,4.754,4.754,0,0,0,2.563-.652,4.339,4.339,0,0,0,1.646-2.3,1.811,1.811,0,0,1,.258-0.478,0.557,0.557,0,0,1,.429-0.13h0.4a0.679,0.679,0,0,1,.458.174,0.513,0.513,0,0,1,.172.464,4.321,4.321,0,0,1-.387,1.594,4.559,4.559,0,0,1-1.088,1.493,5.539,5.539,0,0,1-1.832,1.1,7.357,7.357,0,0,1-2.62.42,5.941,5.941,0,0,1-4.638-1.768,7.338,7.338,0,0,1-1.689-4.9q-0.029-.435-0.029-1.159c0-.483.009-0.87,0.029-1.159a7.339,7.339,0,0,1,1.689-4.9,5.943,5.943,0,0,1,4.638-1.768,7.357,7.357,0,0,1,2.62.42,5.549,5.549,0,0,1,1.832,1.1,4.566,4.566,0,0,1,1.088,1.493,4.343,4.343,0,0,1,.387,1.594,0.513,0.513,0,0,1-.172.464,0.68,0.68,0,0,1-.458.174h-0.4a0.557,0.557,0,0,1-.429-0.13,1.811,1.811,0,0,1-.258-0.478,4.339,4.339,0,0,0-1.646-2.3,4.756,4.756,0,0,0-2.563-.652,4.507,4.507,0,0,0-3.221,1.2A5.455,5.455,0,0,0,279.678,51.738Zm15.719,0.2,7.959,7.188a0.941,0.941,0,0,1,.373.58,0.509,0.509,0,0,1-.573.58H302.7a1.856,1.856,0,0,1-.616-0.073,2.523,2.523,0,0,1-.587-0.42l-7.186-6.464v6.319a0.561,0.561,0,0,1-.63.638h-0.487a0.56,0.56,0,0,1-.63-0.638v-19.3a0.56,0.56,0,0,1,.63-0.638h0.487a0.561,0.561,0,0,1,.63.638v10.26l6.384-4.9a3.527,3.527,0,0,1,.588-0.406,1.569,1.569,0,0,1,.615-0.087h0.544a0.51,0.51,0,0,1,.573.58,0.708,0.708,0,0,1-.072.276,0.754,0.754,0,0,1-.3.3Zm9.992-.2q-0.029.435-.028,1.015t0.028,1.014a5.458,5.458,0,0,0,1.36,3.927,4.5,4.5,0,0,0,3.221,1.2,4.754,4.754,0,0,0,2.563-.652,4.339,4.339,0,0,0,1.646-2.3,1.811,1.811,0,0,1,.258-0.478,0.557,0.557,0,0,1,.429-0.13h0.4a0.679,0.679,0,0,1,.458.174,0.513,0.513,0,0,1,.172.464,4.339,4.339,0,0,1-.386,1.594,4.577,4.577,0,0,1-1.089,1.493,5.539,5.539,0,0,1-1.832,1.1,7.357,7.357,0,0,1-2.62.42,5.941,5.941,0,0,1-4.638-1.768,7.338,7.338,0,0,1-1.689-4.9q-0.028-.435-0.029-1.159t0.029-1.159a7.339,7.339,0,0,1,1.689-4.9,5.943,5.943,0,0,1,4.638-1.768,7.357,7.357,0,0,1,2.62.42,5.549,5.549,0,0,1,1.832,1.1,4.584,4.584,0,0,1,1.089,1.493,4.341,4.341,0,0,1,.386,1.594,0.513,0.513,0,0,1-.172.464,0.68,0.68,0,0,1-.458.174h-0.4a0.557,0.557,0,0,1-.429-0.13,1.811,1.811,0,0,1-.258-0.478,4.339,4.339,0,0,0-1.646-2.3,4.754,4.754,0,0,0-2.563-.652,4.507,4.507,0,0,0-3.221,1.2A5.46,5.46,0,0,0,305.389,51.738Zm14.631-4.521a6.361,6.361,0,0,1,1.861-1.652,5.827,5.827,0,0,1,2.949-.638,6.13,6.13,0,0,1,2.548.493,5.067,5.067,0,0,1,1.818,1.362,5.913,5.913,0,0,1,1.1,2.058,8.63,8.63,0,0,1,.372,2.58v8.232a0.56,0.56,0,0,1-.63.637h-0.487a0.559,0.559,0,0,1-.629-0.637V51.564a5.458,5.458,0,0,0-1.117-3.637,4.036,4.036,0,0,0-3.264-1.319,4.316,4.316,0,0,0-3.293,1.3,5.115,5.115,0,0,0-1.231,3.652v8.087a0.56,0.56,0,0,1-.63.637H318.9a0.56,0.56,0,0,1-.63-0.637v-19.3a0.56,0.56,0,0,1,.63-0.638h0.486a0.56,0.56,0,0,1,.63.638v6.869h0Zm23.42,13.072a0.56,0.56,0,0,1-.63-0.637V58.288a4.575,4.575,0,0,1-.673.812,4.346,4.346,0,0,1-1.016.724,6.663,6.663,0,0,1-1.432.536,7.747,7.747,0,0,1-1.947.217,5.77,5.77,0,0,1-1.961-.333,5.365,5.365,0,0,1-1.632-.913,4.457,4.457,0,0,1-1.117-1.362,3.588,3.588,0,0,1-.415-1.71,3.713,3.713,0,0,1,.415-1.768,4.387,4.387,0,0,1,1.16-1.377,6.493,6.493,0,0,1,1.789-.985,10.769,10.769,0,0,1,2.305-.565l4.524-.638V49.912a3.169,3.169,0,0,0-.93-2.435,5.368,5.368,0,0,0-5.44-.246,2.742,2.742,0,0,0-1.1,1.348,1.036,1.036,0,0,1-.272.478,0.629,0.629,0,0,1-.415.13h-0.4A0.6,0.6,0,0,1,333.806,49a0.613,0.613,0,0,1-.186-0.449,2.5,2.5,0,0,1,.286-1.015,3.806,3.806,0,0,1,.931-1.188,5.764,5.764,0,0,1,1.646-1,6.29,6.29,0,0,1,2.433-.42,7.252,7.252,0,0,1,2.792.464,4.544,4.544,0,0,1,1.732,1.2,4.2,4.2,0,0,1,.874,1.638A6.8,6.8,0,0,1,344.557,50v9.652a0.56,0.56,0,0,1-.63.637H343.44ZM338.029,58.9a5.123,5.123,0,0,0,1.846-.333,4.265,4.265,0,0,0,1.532-1,4.607,4.607,0,0,0,1.031-1.681,6.9,6.9,0,0,0,.372-2.377V52.521l-3.693.522q-4.752.667-4.753,3.072a2.292,2.292,0,0,0,.329,1.247,2.921,2.921,0,0,0,.845.869,3.571,3.571,0,0,0,1.174.507A5.566,5.566,0,0,0,338.029,58.9Zm11.681-17.42a0.6,0.6,0,0,1-.186.464,0.665,0.665,0,0,1-.472.174h-1.088a0.56,0.56,0,0,1-.63-0.638v-1.1a0.681,0.681,0,0,1,.172-0.478,0.589,0.589,0,0,1,.458-0.189h1.088a0.634,0.634,0,0,1,.472.189,0.653,0.653,0,0,1,.186.478v1.1h0ZM349.4,59.651a0.56,0.56,0,0,1-.63.637h-0.486a0.56,0.56,0,0,1-.63-0.637v-13.8a0.56,0.56,0,0,1,.63-0.638h0.486a0.56,0.56,0,0,1,.63.638v13.8Zm15.6,0a0.56,0.56,0,0,1-.63.637h-0.486a0.56,0.56,0,0,1-.63-0.637V51.564a5.453,5.453,0,0,0-1.117-3.637,4.036,4.036,0,0,0-3.264-1.319,4.312,4.312,0,0,0-3.292,1.3,5.111,5.111,0,0,0-1.231,3.652v8.087a0.561,0.561,0,0,1-.63.637h-0.487a0.56,0.56,0,0,1-.63-0.637v-13.8a0.56,0.56,0,0,1,.63-0.638h0.487a0.561,0.561,0,0,1,.63.638v1.362a6.361,6.361,0,0,1,1.861-1.652,5.827,5.827,0,0,1,2.949-.638,6.13,6.13,0,0,1,2.548.493,5.067,5.067,0,0,1,1.818,1.362,5.9,5.9,0,0,1,1.1,2.058,8.6,8.6,0,0,1,.373,2.58v8.232h0ZM126.443,57.607V53.26h15.032a1.084,1.084,0,0,0,1.073-1.087V47.825a1.083,1.083,0,0,0-1.073-1.087H126.443V42.39h28.989a3.261,3.261,0,0,0,0-6.522H121.075A1.084,1.084,0,0,0,120,36.956V63.042a1.083,1.083,0,0,0,1.074,1.087h34.357a3.261,3.261,0,0,0,0-6.522H126.443ZM155.432,75a14.06,14.06,0,0,0,13.958-14.13A14.672,14.672,0,0,0,164.728,50,14.677,14.677,0,0,0,169.39,39.13,14.06,14.06,0,0,0,155.432,25H121.074A1.084,1.084,0,0,0,120,26.087v4.348a1.083,1.083,0,0,0,1.074,1.087h34.358a7.571,7.571,0,0,1,7.516,7.608c0,4.2-2.89,7.609-6.442,7.609h-8.589a1.083,1.083,0,0,0-1.074,1.087v4.348a1.084,1.084,0,0,0,1.074,1.087h8.589c3.552,0,6.442,3.413,6.442,7.608a7.571,7.571,0,0,1-7.516,7.608H121.074A1.084,1.084,0,0,0,120,69.563v4.348A1.083,1.083,0,0,0,121.074,75h34.358Z" transform="translate(-120 -25)"/>
+				</svg>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-label="Toggler">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav align-items-center justify-content-end">
+					<li class="nav-item nav-item-is-mobile active">
+						<a class="nav-link" href="coin-constructor.html">Конструктор монет</a>
+					</li>	
+					<li class="nav-item nav-item-is-mobile">
+						<a class="nav-link" href="leasing.html">Лизинг</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="purse.html">Кошельки</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="exchanges.html">купить или продать</a>
+					</li>					
+					<li class="nav-item nav-item-news">
+						<a class="nav-link" href="news.html">
+							<span class="icon-bell">
+								<span class="icon-dot-presently"></span>
+							</span>								
+							Новости
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="massmedia.html">СМИ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ask-questions.html">Задать вопрос</a>
+					</li>	
+					<li class="nav-item">
+						<a class="nav-link" href="faq.html">FAQ</a>
+					</li>
+				</ul>
+			</div>
+			<ul class="navbar-nav navbar-nav-langs">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						РУС
+					</a>
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Eng</a>
+						<a class="dropdown-item" href="#">Turk</a>
+						<a class="dropdown-item" href="#">Chi</a>
+						<a class="dropdown-item" href="#">Thai</a>
+						<a class="dropdown-item" href="#">Indo</a>
+						<a class="dropdown-item" href="#">Span</a>
+						<a class="dropdown-item" href="#">Portu</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!--navbar.end-->		
+	
+	<!--wrapper.begin-->
+	<div class="wrapper">
+	
+		<!--wrapper-content.begin-->
+		<div class="wrapper-content">		
+		
+			<!--header.begin-->
+			<header class="header b-lazy" data-src="img/bg/header.png">
+				<div class="container">	
+					<div class="header-row">
+						<div class="header-cell">					
+							<div class="row flex-row justify-content-center align-items-center">					
+								<div class="col-md-6 order-md-2 text-center wow fadeInRight" data-wow-delay=".6s" data-wow-duration=".7s">
+									<img class="b-heading-img img-fluid b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/pictures/coin-constructor/01.png" alt="">
+								</div>
+								<div class="col-md-6 order-md-1 wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".7">						
+									<div class="b-heading b-heading-16">
+										<h1 class="b-heading-title wow fadeInUp" data-wow-delay="1.15s" data-wow-duration="1.15s">
+											КОНСТРУКТОР<br> МОНЕТ EDC<br> BLOCKCHAIN
+										</h1>
+										
+										<div class="b-heading-line wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="1.2s"></div>
+										
+										<div class="b-heading-text wow fadeInUp" data-wow-delay="1.25s" data-wow-duration="1.25s">
+											<p>
+												На платформе вы можете создать собственный токен,<br> который будет защищен особым кодом. Пройдите путь от простого токена для малого оборота, до полноценной криптовалюты с расширенными возможностями и алгоритмом майнинга PoS.
+											</p>
+										</div>
+										<a href="https://wallet.blockchain.mn/asset_constructor" class="btn btn-primary">Создать собственный токен</a>
+									</div>
+								</div>
+							</div>								
+							<a href="#section" class="link-scroll page-scroll wow zoomIn" data-wow-delay="1.35s" data-wow-duration="1.35s">
+								<span class="link-scroll-arrow"></span> scroll
+							</a>					
+						</div>
+					</div>					
+				</div>
+			</header>
+			<!--header.end-->	
+		
+			<!--section.begin-->
+			<div class="section">
+				<div class="container" id="section">
+					<div class="row flex-row justify-content-center align-items-center">
+						<div class="col-lg-6 text-center wow fadeInLeft" data-wow-delay=".6s" data-wow-duration=".7s">
+							<img class="b-heading-img img-fluid b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/pictures/coin-constructor/02.png" alt="">
+						</div>
+						<div class="col-lg-6 wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".7s">
+							<div class="b-heading b-heading-16">
+								<h2 class="b-heading-title">
+									Запусти свою криптовалюту без единой строчки кода
+								</h2>
+								
+								<div class="b-heading-line"></div>
+								
+								<div class="b-heading-text">
+									<p>Вам не требуется ни мощная вычислительная техника, ни услуги хостинга, ни отдел профессиональных программистов. Конструктор обладает простым интерфейсом - просто задайте пользовательские настройки, а наша программа сделает все остальное.</p>
+									<p>Если у вас возникнут трудности, мы также предлагаем пакетные решения для создания крипто-активов, листинг на партнерских биржах по всему миру и полное маркетинговое сопровождение вашего проекта.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--section.end-->	
+		
+			<!--section.begin-->
+			<div class="section">
+				<div class="container">
+					<div class="row flex-row justify-content-center align-items-center">
+						<div class="col-lg-6 order-lg-2 text-center wow fadeInRight" data-wow-delay=".6s" data-wow-duration=".7s">
+							<img class="b-heading-img img-fluid b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/pictures/coin-constructor/03.png" alt="">
+						</div>
+						<div class="col-lg-6 order-lg-1 wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".7">
+							<div class="b-heading b-heading-16">
+								<h2 class="b-heading-title">
+									Распоряжайся ею на свое усмотрение
+								</h2>
+								
+								<div class="b-heading-line"></div>
+								
+								<div class="b-heading-text">
+									<p>
+										Используйте свою криптовалюту в бизнесе, торгуйте ею на биржах или внедрите в мировую платежную систему – только вы решаете, что делать с вашей монетой.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--section.end-->
+		
+			<!--section.begin-->
+			<div class="section section-gray">
+				<div class="container">
+					<div class="row flex-row justify-content-center align-items-center">
+						<div class="col-lg-6 text-center wow fadeInLeft" data-wow-delay=".6s" data-wow-duration=".7s">
+							<img class="b-heading-img img-fluid b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/pictures/main/04.png" alt="">
+						</div>
+						<div class="col-lg-6 wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".7s">
+							<div class="b-heading b-heading-16">
+								<h2 class="b-heading-title">
+									Как это<br> работает?
+								</h2>
+								
+								<div class="b-heading-line"></div>
+								
+								<div class="b-heading-text">
+									<p>Чтобы создать крипто актив, выберите пакет в зависимости от поставленной задачи:  Basic, Plus или Premium.</p>
+									<ul>
+										<li><strong>Пакет «Basic»:</strong> дает возможность создать монету, задать ей символ и описание. Предустановленные в этом пакете характеристики, дают возможность создать именной токен или токен для малого оборота.</li>
+										<li><strong>Пакет «Plus»:</strong> дает вам возможность изменить эмиссию, премайн и задать характеристики монеты, такие как символ и описание.</li>
+										<li><strong>Пакетом «Premium»</strong> дает возможность создать полноценную криптовалюту с алгоритмом майнинга PoS, полностью настроить все характеристики, а также задать все необходимые параметры. Это решение с расширенными возможностями для более серьезных проектов.</li>
+									</ul>
+								</div>
+								
+								<a href="https://wallet.blockchain.mn/asset_constructor" class="btn btn-primary">Создать свой токен прямо сейчас</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--section.end-->
+		
+			<!--section.begin-->
+			<!--<div class="section section-create-token">
+				<div class="container">
+					<div class="row flex-row justify-content-center align-items-center">						
+						<div class="col-lg-12 wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".7">
+							<div class="b-heading">
+								<h2 class="b-heading-title b-heading-title-60">Создайте свой собственный токен прямо сейчас!</h2>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>-->
+			<!--section.end-->	
+		
+			<!--btn-up.begin-->
+			<a href="#top" class="btn-up page-scroll">			
+				up <span class="btn-up-arrow"></span>
+			</a>
+			<!--btn-up.end-->
+		
+		</div>
+		<!--wrapper-content.end-->
+					
+		<!--footer.begin-->
+		<footer class="footer">
+			<div class="footer-main">
+				<div class="container">					
+					<div class="footer-inner">
+						<div class="row">
+							<div class="col-lg-4 col-md-6 col-sm-5">
+								<ul class="footer-menu">
+									<li><a href="index.html">Главная</a></li>
+									<li><a href="coin-constructor.html">Конструктор монет</a></li>
+									<li><a href="leasing.html">Лизинг</a></li>
+									<li><a href="purse.html">Кошельки</a></li>
+									<li><a href="exchanges.html">Купить или продать</a></li>
+									<li><a href="news.html">Новости</a></li>
+									<li><a href="massmedia.html">СМИ</a></li>
+									<li><a href="ask-questions.html">Задать вопрос</a></li>
+									<li><a href="faq.html">FAQ</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-7">						
+								<div class="footer-item">
+									<h3 class="footer-title">
+										Выберите телефон для связи
+									</h3>								
+									<div class="footer-contact-phone">
+										<div class="row flex-row align-items-center">
+											<div class="col-4">
+												<div class="footer-contact-phone-country">
+													<img src="img/flags/ru.svg" alt="">Россия
+												</div>
+											</div>
+											<div class="col-8 text-right">
+												<div class="select-wrap">
+													<select class="form-control" id="formControlSelectPhone">
+														<option>+7 800 350 01 73</option>
+														<option>+7 800 350 01 74</option>
+														<option>+7 800 350 01 75</option>
+														<option>+7 800 350 01 76</option>
+														<option>+7 800 350 01 77</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>								
+								<div class="footer-item">
+									<h3 class="footer-title">
+										Кошельки EDC Blockchain
+									</h3>								
+									<ul class="edc-wallets">
+										<li><a href="#"><i class="fab fa-android"></i></a></li>
+										<li><a href="#"><i class="fab fa-apple"></i></a></li>
+										<li><a href="#"><i class="fab fa-windows"></i></a></li>
+										<li><a href="#"><i class="icon-macos"></i></a></li>
+										<li><a href="#"><i class="fab fa-linux"></i></a></li>
+										<li class="active"><a href="https://wallet.blockchain.mn/"><i class="far fa-window-restore"></i></a></li>
+									</ul>
+								</div>							
+							</div>
+							<div class="col-lg-4 col-md-12">
+								<div class="footer-item footer-item-form">
+									<div class="contacts-form">
+										<h3 class="footer-title">
+											Обратный звонок
+										</h3>
+										<form action="#" method="post">
+											<div class="form-group">
+												<input type="text" class="form-control" name="fnameContacts" placeholder="Представьтесь" aria-label="Name" required>
+											</div>
+											<div class="form-group">
+												<input type="tel" class="form-control" name="phoneContacts" placeholder="Телефон для связи" aria-label="Phone" required>
+											</div>
+											<div class="form-group">
+												<textarea class="form-control" name="msgContacts" placeholder="Сообщение" aria-label="Message"></textarea>
+											</div>
+											<div class="row">											
+												<div class="col-md-12">
+												    <div class="btn-container">
+														<button type="submit" class="btn btn-primary">Отправить</button>
+													</div>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row flex-row justify-content-between align-items-center">
+						<div class="col-sm-6 order-sm-2">							
+							<ul class="social">
+								<li><a href="https://www.facebook.com/EDCBlockchain/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="https://twitter.com/EDCBlockchain" target="_blank"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="https://t.me/EDCBlockchain" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+								<li><a href="https://www.instagram.com/EDC.Blockchain/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="https://www.linkedin.com/company/EDCBlockchain" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href="https://www.youtube.com/channel/UCdkt4HSObcdnSU4CrqZqgig" target="_blank"><i class="fab fa-youtube"></i></a></li>
+							</ul>						
+						</div>
+						<div class="col-sm-6 order-sm-1">
+							<div class="footer-copright">
+								© BLOCKCHAIN SECURE CRYPTOCYRRENCY LTD.<br>
+								edcblockchain.com  沪ICP备15038270号-23
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--footer.end-->	
+		
+	</div>
+	<!--wrapper.end-->	
+	
+	<!--scripts.begin-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>	
+	<script src="js/blazy.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/scripts.js?=1.0.0"></script>		
+	<!--scripts.end-->	
+</body>
+</html>	
